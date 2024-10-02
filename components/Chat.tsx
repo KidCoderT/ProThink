@@ -14,7 +14,7 @@ interface ChatItems {
 }
 
 const Chat = () => {
-  let [history, setHistory] = useState<ChatItems[]>([
+  const [history, setHistory] = useState<ChatItems[]>([
     {
       role: "user",
       parts: [{ text: "Hello" }],
@@ -28,7 +28,7 @@ const Chat = () => {
       ],
     },
   ]);
-  let [message, setMessage] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
   const { code } = useCodeStore();
   const { toast } = useToast();
 
@@ -97,7 +97,7 @@ const Chat = () => {
   };
 
   const onBtnClick = async () => {
-    let msg = message;
+    const msg = message;
     setMessage("");
 
     toast({
