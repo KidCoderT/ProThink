@@ -1,7 +1,11 @@
 import { Status, TestCaseStatus } from "./types";
 
 let markdown = `# Gear Ratios
+
+
 > Taken From Advent of Code 2023 - Day 3
+
+
 The engine schematic (your puzzle input) consists of a visual representation of the engine.
 There are lots of numbers and symbols you don't really understand, but apparently **any number adjacent to a symbol**,
 even diagonally, is a "part number" and should be included in your sum. (Periods (\`.\`) do not count as a symbol.)
