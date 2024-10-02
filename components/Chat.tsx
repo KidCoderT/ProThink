@@ -108,7 +108,7 @@ const Chat = () => {
     await sendMessage(msg);
   };
 
-  const sendMsg = async (task) => {
+  const sendMsg = async (task: any) => {
     toast({
       title: "Message Sent",
       description: "Ai Responding please wait!",
