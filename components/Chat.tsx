@@ -49,7 +49,7 @@ const Chat = () => {
               text: `Hello. Here is the Problem we are trying to solve: 
         # Gear Ratios
         The engine schematic (your puzzle input) consists of a visual representation of the engine.
-        There are lots of numbers and symbols you don't really understand, but apparently **any number adjacent to a symbol**,
+        There are lots of numbers and symbols you don&apos;t really understand, but apparently **any number adjacent to a symbol**,
         even diagonally, is a "part number" and should be included in your sum. (Periods (\`.\`) do not count as a symbol.)
         
         Here is an example engine schematic:
@@ -75,7 +75,7 @@ const Chat = () => {
 
         > Your code must print out a single number of the maximum number of steps you can take.
         Nothing else
-        > If you wish to use Custom Functions Ensure that they are written under the main function Otherwise they won't be seen
+        > If you wish to use Custom Functions Ensure that they are written under the main function Otherwise they won&apos;t be seen
 `,
             },
           ],

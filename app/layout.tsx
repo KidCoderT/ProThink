@@ -43,22 +43,22 @@ export default function RootLayout({
               </p>
 
               <p className="text-lg mb-4 leading-relaxed">
-                You'll find the code editor in the top right corner where you
+                You&apos;ll find the code editor in the top right corner where you
                 can write your code. Just above it is a run button that will
                 open the testcases tab. Of course, you can also manually access
                 the testcases by clicking the tab directly.
               </p>
 
               <p className="text-lg mb-4 leading-relaxed">
-                In the bottom right, you'll see the chat tab - your portal for
+                In the bottom right, you&apos;ll see the chat tab - your portal for
                 interacting with the AI. Feel free to ask questions and receive
                 guided assistance.
               </p>
 
               <p className="text-lg mb-4 leading-relaxed">
-                The problem to solve appears on the left side. While there's
+                The problem to solve appears on the left side. While there&apos;s
                 currently only one challenge available (sourced from the Advent
-                of Code 2023), I hope you'll enjoy the solving process
+                of Code 2023), I hope you&apos;ll enjoy the solving process
                 nonetheless!
               </p>
             </div>
